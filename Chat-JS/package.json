@@ -1,0 +1,24 @@
+{
+  "name": "Socett",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bad-words": "^3.0.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "link-preview-node": "^1.0.7",
+    "marked": "^3.0.2",
+    "node-fetch": "^3.0.0",
+    "socket.io": "^4.2.0",
+    "url-metadata": "^2.5.0",
+    "valid-url": "^1.0.9"
+  }
+}

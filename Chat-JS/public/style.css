@@ -1,0 +1,140 @@
+:root {
+	--body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	--msger-bg: #fff;
+	--border: 2px solid black;
+	--left-msg-bg: #ececec;
+	--right-msg-bg: #579ffb;
+  --section-bg: #39bee3;
+  --default-text-color: #ef2828;
+}
+/* This is the menu bar on top  */
+.navbar {
+  background-color:var(--msger-bg) !important;
+  border-bottom: 3px solid #ff0000;
+}
+
+.navbar-brand {
+  color: var(--default-text-color) !important;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+.navbar-toggler:focus {
+  border: 5px solid #ffffff;
+  box-shadow: none;
+}
+/* Style for the little links */
+.nav-link {
+  color: var(--default-text-color);
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+  /* filter: invert(0) */
+}
+
+/* This is the first section  */
+.hero {
+  background: var(--section-bg);
+  background-position: right;
+  padding: 150px 0;
+  text-align: center;
+}
+/* The title secetion text color  */
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+/* Title section sub text */
+.hero p {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+/* This is the styling for the containers for ecah section */
+.container {
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Title for tool List  */
+#catalog h1 {
+  color: var(--section-bg);
+  font-weight: bold;
+}
+.row {
+  place-content: center;
+}
+/* Custom card styling */
+#catalog {
+  background: white;
+}
+.tool-card {
+      border: solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+    background: #39bee3;
+    color: #fff;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+}
+/* tool image styling */
+.tool-card img {
+  object-fit: scale-down;
+  height: 200px;
+}
+/* Card info  */
+.tool-card .card-body {
+  padding: 20px;
+  border-top: #ffffff solid;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+/* tool name  */
+.tool-card h5.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*  tool Description */
+.tool-card p.card-text {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.tool-card .btn-primary {
+  font-size: 14px;
+}
+/* End  */
+.footer-container {
+  background: var(--section-bg);
+    color: white;
+    text-align: center;
+  padding: 10px;
+}
+
+.btn-primary {
+  background: var(--default-text-color);
+  border: none;
+  font-weight: bolder;
+}
+
+.footer_button {
+  background: #FFFFFF;
+  color: var(--default-text-color);
+  padding: 10px;
+  margin: 2rem;
+}
