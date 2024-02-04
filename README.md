@@ -1,15 +1,15 @@
 <p class="whitespace-pre-wrap">Here is a detailed README for your chatbot code:</p>
-<h1>Chatbot Code README</h1>
+<h1>Chatify README</h1>
 <h2>Overview</h2>
 <p class="whitespace-pre-wrap">This code implements a simple chatbot web application with socket.io for real-time messaging. It has a homepage with links to the chatbot and other tools, and a chat page where users can interact with the bot.</p>
-<p class="whitespace-pre-wrap">The bot has some basic capabilities:</p>
+<p class="whitespace-pre-wrap">The personal bot has some basic capabilities:</p>
 <ul class="list-disc pl-8 space-y-2" depth="0">
 <li class="whitespace-normal" index="0">Responding to commands like <code>pls help</code>, <code>pls quote</code>, <code>pls cat</code></li>
 <li class="whitespace-normal" index="1">Integrating with 3rd party APIs for images and quotes</li>
 <li class="whitespace-normal" index="2">Text-to-speech using the Web Speech API</li>
 <li class="whitespace-normal" index="3">Saving chat history to localStorage</li>
 </ul>
-<p class="whitespace-pre-wrap">There is also framework in place for connecting more advanced AI services.</p>
+<p class="whitespace-pre-wrap">There is also framework in place for connecting more advanced AI services or commands.</p>
 <h2>Code Structure</h2>
 <p class="whitespace-pre-wrap">The code is structured into the following main parts:</p>
 <h3>Server</h3>
