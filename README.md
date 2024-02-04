@@ -70,3 +70,4 @@
 <p class="whitespace-pre-wrap">The static assets in <code>public/</code> can be customized to change the look and feel.</p>
 <p class="whitespace-pre-wrap"><code>index.js</code> and <code>views/</code> templates can be modified to add additional pages.</p>
 <h2>License</h2>
+<p class="whitespace-pre-wrap">This project is open source and available under the <a href="LICENSE">MIT License</a>.</p>
